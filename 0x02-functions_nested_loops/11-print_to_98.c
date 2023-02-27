@@ -15,25 +15,25 @@ void print_to_98(int n)
 		{
 			if (n != 98)
 			{
-				printf("%d, ", a);
+				printf("%d, ", x);
 			}
 			else if (n == 98)
 			{
-				printf("%d\n", a);
+				printf("%d\n", x);
 			}
 		}
 	}
 	else if (n >= 98)
 	{
-		for (b = n; b >= 98; b--)
+		for (y = n; y >= 98; y--)
 		{
 			if (n != 98)
 			{
-				printf("%d, ", b);
+				printf("%d, ", y);
 			}
 			else if (n == 98)
 			{
-				printf("%d\n", b);
+				printf("%d\n", y);
 			}
 		}
 	}
